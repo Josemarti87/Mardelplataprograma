@@ -1,0 +1,53 @@
+header {
+    background-color:#006400;
+    width: 100vw;
+    padding: 15px;
+    }
+.prin{
+    display: inline-block;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside{
+    background-color:#006400;
+    width: 25vw;
+    padding: 1vw;
+}
+main{
+    width: 75vw;
+    background-color: #006400;
+    color: blanchedalmond;
+}
+footer{
+    background-color:#006400;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    margin-top: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+button{
+    background-color: tomato;
+    padding: 10px;
+    }
+li{
+        display: inline-block;
+        
+    }
+nav{
+        background-color: rgba(6, 148, 6, 0.493);
+        padding: 1px;
+        }
+a{
+        color: black;
+        font-style: italic;
+        font-size: 18px;
+         }
+
+    
+    
