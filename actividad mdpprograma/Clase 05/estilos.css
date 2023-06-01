@@ -1,0 +1,42 @@
+*{
+   box-sizing: border-box;
+   margin: 10px;
+   padding: 10px;
+}
+html{
+    background-color: rgba(8, 176, 228, 0.966);
+}
+body{
+    background-color: aquamarine;
+    text-align: justify;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    margin: 15px;
+    border-style: solid;
+    border-color: rgb(25, 0, 255);
+}
+main{
+    text-align: center;
+    border-style: solid;
+    border-color: blueviolet;
+}
+form ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+    border-style: groove;
+    border-color: cadetblue;
+}
+button{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+

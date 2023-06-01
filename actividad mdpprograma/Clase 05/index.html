@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Regitrate</title>
+</head>
+<body>
+    <header>
+        <h1>Registrate en el concurso</h1>
+        <h2>Ganate un auto 0km</h2>
+        <p>Concurso solo para Argentina, Peru, Uruguay y Colombia </p>
+    </header>
+    <main>
+        
+        <form>
+        <ul>
+           <li> 
+            <label for="name">Nombre:
+                <input type="text" id="name">
+            </label>
+        </li>
+           <li> <label for="apellido">Apellido:
+                <input type="text" id="lastname">
+            </label>
+        </li>
+        <li>
+            <label for="email">Email:
+                <input type="email" id="mail">
+            </label>
+        </li>
+            <li>
+                <label for="contraseña">Ingresa tu contraseña
+                <input type="password">
+                Repeti tu contraseña<input type="password"> 
+            </label>
+            </li>
+            <li>
+                <label for="countri" required>Pais de residencia
+                <select name="" id="pais">
+                    <option value="">...</option>
+                    <option value="">Argentina</option>
+                    <option value="">Peru</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Colombia</option>
+                </select>
+            </label>
+           </li>
+        </ul>
+            <button type="submit">Registrate</button>
+        </form>
+    </main>
+    <footer>Marca registrada © concurso 2023</footer>
+</body>
+</html>
